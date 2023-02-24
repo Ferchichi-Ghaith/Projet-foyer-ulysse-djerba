@@ -1,0 +1,106 @@
+@import '../../styles/contants.scss';
+
+.wrapper{
+    background: white;
+    .container{
+        gap: 2rem;
+        @media (max-width: $sm) {
+            flex-direction: column;
+            gap: 2rem;
+            align-items: flex-start;
+        }
+        .left{
+            flex: 3;
+            >*{
+                display: block;
+            }
+            >:nth-child(2)
+            {
+                margin-top: 3rem;
+
+                a{
+                    text-decoration: underline;
+                    color: rgb(0, 85, 255);
+                    text-decoration: none;
+                }
+            }
+        }
+
+
+        .right{
+            flex: 1;
+            .info{
+                margin-bottom: 1rem;
+                >*{
+                    display: block;
+                }
+            }
+            .menu{
+                @media (max-width: $sm) {
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                  
+                }
+                display: flex;
+                flex-direction: column;
+                gap: 1.8rem;
+                list-style: none;
+                li{
+                    cursor: pointer;
+                    font-weight: 700;
+                    
+                }
+                
+            }
+            .email{
+                text-decoration: none;
+                font-weight: 600;
+                color: #112465;
+            }
+            .media{
+                text-decoration: none;
+                font-weight: 600;
+                color: #000926;
+            }
+           
+           
+        }
+        .rightmax{
+            flex: 1;
+            .info{
+                margin-bottom: 1rem;
+                >*{
+                    display: block;
+                }
+            }
+            .menu{
+                @media (max-width: $sm) {
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                  
+                }
+                display: flex;
+                flex-direction: column;
+                gap: 1.2rem;
+                list-style: none;
+                li{
+                    cursor: pointer;
+                    
+                }
+                
+            }
+            .email{
+                text-decoration: none;
+                font-weight: 600;
+                color: #0e1b46;
+            }
+            .media{
+                text-decoration: none;
+                font-weight: 600;
+                color: #000926;
+            }
+           
+           
+        }
+    }
+}
