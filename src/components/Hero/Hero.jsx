@@ -12,7 +12,7 @@ const Hero = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`innerWidth ${css.container}`}
       >
-        <div className={css.upperElements}>
+        <div className={css.upperElements} id="main">
           <motion.span className="primaryText" variants={fadeIn("right", "tween", 0.2, 1)}>
           Bienvenue au <br />Foyer universitaire Ulysse<br />  Djerba
            
