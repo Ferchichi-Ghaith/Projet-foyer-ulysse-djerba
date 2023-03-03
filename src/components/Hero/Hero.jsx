@@ -4,7 +4,7 @@ import css from "./Hero.module.scss";
 import { motion } from "framer-motion";
 const Hero = () => {
   return (
-    <section className={`paddings ${css.wrapper}`}>
+    <section className={`paddings ${css.wrapper}`} id="main">
       <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -12,7 +12,7 @@ const Hero = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`innerWidth ${css.container}`}
       >
-        <div className={css.upperElements} id="main">
+        <div className={css.upperElements}>
           <motion.span className="primaryText" variants={fadeIn("right", "tween", 0.2, 1)}>
           Bienvenue au <br />Foyer universitaire Ulysse<br />  Djerba
            
