@@ -34,7 +34,7 @@ export const workExp = [
     place: "Administartion",
     tenure: "Inscription / affaires estudiantines",
     role: "Le département inclue les bureaux Suivant :",
-    detail:" Directeur , Sous directeur (Hébergement) , Finance , Maintenance , Bureau d'ordre , Magsin"
+    detail:" Directeur , Sous directeur (Hébergement) , Finance , Maintenance , Bureau d'ordre , sécurité"
        
 },
   {
@@ -47,16 +47,16 @@ export const workExp = [
   {
     place: "Espaces D'activites",
     tenure: "Culturelle / Sportive / Scientifique",
-    role: "Les espaces didiés aux activités:",
+    role: "Les espaces dédiés aux activités:",
     detail:
-       " Salle de sport polyvalente (Box , Musculation , Fitnesse ,Ping-pong ... )  ,  Salle des arts (musique , peinture , ...) et une Salle de formation et réunion "
+       " Salle de sport polyvalente (Box , Musculation , Fitnesse ,Ping-pong ... )  ,  Salle des arts (musique , peinture , ...) une Salle de formation équipeé , Bibliothéque , Espace de révision mixte ."
   },
   {
-    place: "Service Psychologue",
-    tenure: "Encadreur",
-    role: " Role :",
+    place: "Service de suotien psychologique",
+    tenure: "Mm Najwa ben Khemis",
+    role: " Rôle  :",
     detail:
-       "Vous aide à comprendre et à gérer leurs émotions et leurs comportements. Elle  fournie des conseils et des interventions thérapeutiques pour aider les gens à surmonter leurs difficultés et à atteindre leurs objectifs. "
+       "Le psychologue est un profissionnel qui écoute , accompagne et aide les jeunes étudiants a fin de grantir une meilleure adaptation , orientation , puise de décision et bien-être . En plus du rôle préventif qui consiste au renforcement des compétences psychosocioales à travers des activités et des formation . "
   },
 ];
 
