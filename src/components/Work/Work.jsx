@@ -15,7 +15,7 @@ const Work = () => {
 
       <div className={`innerWidth flexCenter ${css.container}`}>
         {/* heading */}
-        <span className="primaryText yPaddings">Services & Architecture </span>
+        <span className="primaryText yPaddings"> Services & Plan </span>
 
         <div className={`flexCenter ${css.experiences}`}>
           {workExp.map((exp, i) => {
