@@ -11,7 +11,7 @@ const Work = () => {
     whileInView="show"
     viewport={{ once: false, amount: 0.25 }}
     className={`paddings ${css.wrapper}`}>
-    <a className="anchor" id="service&architecture"></a>
+    <a className="anchor" id="service&plan"></a>
 
       <div className={`innerWidth flexCenter ${css.container}`}>
         {/* heading */}
