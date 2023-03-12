@@ -39,10 +39,10 @@ export const workExp = [
 },
   {
     place: "Hébergement",
-    tenure: "Suite pour les garçons et un autre pour les filles",
-    role: "Architecture de chaque suite ",
+    tenure: " 2 Compartiment",
+    role: "plan de chaque Compartiment  ",
     detail:
-       "Chaque suite se compose de nombre  de blocs . à chaque bloc on a 8 chambres , une cuisine et un bloc sanitaire qui contient 6 vaques , 3 WC  . en tout il y a 17 blocs pour les filles  et  18 pour les garçons "
+       "Chaqu'un se compose de nombre  de blocs . à chaque bloc on a 8 chambres , une cuisine et un bloc sanitaire qui contient 6 vaques , 3 WC  . en tout il y a 17 blocs pour les filles  et  18 pour les garçons "
   },
   {
     place: "Espaces D'activites",
