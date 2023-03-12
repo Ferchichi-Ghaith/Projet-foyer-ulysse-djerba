@@ -53,7 +53,7 @@ export const workExp = [
   },
   {
     place: "Service de suotien psychologique",
-    tenure: "Mm Najwa ben Khemis",
+    tenure: " Psychologue Mm Najwa ben Khemis",
     role: " Rôle  :",
     detail:
        "Le psychologue est un profissionnel qui écoute , accompagne et aide les jeunes étudiants a fin de grantir une meilleure adaptation , orientation , puise de décision et bien-être . En plus du rôle préventif qui consiste au renforcement des compétences psychosocioales à travers des activités et des formation . "
