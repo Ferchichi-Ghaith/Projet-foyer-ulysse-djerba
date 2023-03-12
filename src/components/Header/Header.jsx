@@ -35,9 +35,9 @@ const Header = () => {
           style={getMenuStyles(menuOpened)}
         >
           <li><a href="#main">Accueil</a></li>
-          <li><a href="#apropos">à propos</a></li>
-          <li><a href="#service&architecture"> Service & Architecture </a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#apropos">À Propos</a></li>
+          <li><a href="#service&architecture"> Services & Plan  </a></li>
+          <li><a href="#contact">Contacts</a></li>
           
 
           
